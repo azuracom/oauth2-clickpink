@@ -11,7 +11,7 @@ class ClickPinkUser implements ResourceOwnerInterface
 
     public function getId()
     {
-        return $this->data['email'];
+        return $this->data['id'];
     }
 
     public function getEmail(): string
